@@ -1,0 +1,26 @@
+<div class="zhuce_body">
+    <div class="zhuce_kong">
+     <div class="zc">
+         <div class="bj_bai">
+            <h3>欢迎注册</h3>
+             <form action="${pageContext.request.contextPath}/UserRegisterServlet?op=register" method="post">
+                用户名：<input name="userName" type="text" class="kuang_txt phone" placeholder="请输入用户名"style="width: 600px;height: 30px;"><br><br>密码：
+                <input name="password" id="pw" type="password" class="kuang_txt possword" placeholder="请输入密码(不少于6位)"style="width: 600px;height: 30px;" ><br><br>确认密码：
+                <input name="repassword" id="repw" type="password" class="kuang_txt possword" placeholder="请再次输入密码" onkeyup="checkpassword()"style="width: 600px;height: 30px;">
+                <span id="tishi"></span></input>
+                
+                <div>
+                 <!-- <div class="hui_kuang">< img src="../img/zc_22.jpg" width="92" height="31"></div> -->
+                 <!-- <div class="shuaxin">< a href=" ">< img src="../img/zc_25.jpg" width="13" height="14"></ a></div> -->
+                </div>
+                <input name="提交" type="submit" class="btn_zhuce" value="提交">
+                
+                </form>
+            </div>
+         <div class="bj_right">
+                <p>已有账号？立即登录</ a></p >
+            
+            </div>
+        </div>
+    </div>
+</div>
